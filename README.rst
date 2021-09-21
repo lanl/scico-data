@@ -1,4 +1,4 @@
 scico-data
 ==========
 
-Data for the `SCICO <https://github.com/scici/scico>`_ project
+Data for the `SCICO <https://github.com/lanl/scico>`_ project
