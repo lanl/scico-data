@@ -15,7 +15,7 @@ Computed Tomography
 
    admm_tv_ct
    admm_tv_ct_weighted
-   preconditioned_cg_ct
+   pcg_ct
 
 Deconvolution
 =============
