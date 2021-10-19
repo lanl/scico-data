@@ -16,6 +16,9 @@ Computed Tomography
    admm_tv_ct
    admm_tv_ct_weighted
    pcg_ct
+   admm_ppp_bm3d_svmbir_cg
+   admm_ppp_bm3d_svmbir_prox
+
 
 Deconvolution
 =============
