@@ -1,7 +1,7 @@
 Trained DnCNN Models
 ====================
 
-This directory contains the parameters of objax CNN models trained as denoisers (DnCNN) following the method described in:
+This directory contains the parameters of flax CNN models trained as denoisers (DnCNN) following the method described in:
 
 Kai Zhang, Wangmeng Zuo, Yunjin Chen, Deyu Meng, and Lei Zhang. Beyond a Gaussian denoiser: residual learning of deep CNN for image denoising. *IEEE Transactions on Image Processing*, 26(7):3142–3155, July 2017.
 
