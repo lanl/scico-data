@@ -1,0 +1,11 @@
+channels:
+- conda-forge
+dependencies:
+- python =3.8
+- pip
+- astra-toolbox
+- hyperopt
+- pip:
+  - colour_demosaicing
+  - ray[tune]
+  - scico
