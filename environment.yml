@@ -1,5 +1,6 @@
 channels:
 - conda-forge
+- astra-toolbox
 dependencies:
 - python =3.8
 - pip
