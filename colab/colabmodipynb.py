@@ -42,7 +42,7 @@ def extra_dependencies(path):
         if "colour_demosaicing" in line:
             depend.append("colour_demosaicing")
 
-    return depend
+    return sorted(list(set(depend)))
 
 
 def prepend_first_code_cell(srcpth, dstpth, prepend):
