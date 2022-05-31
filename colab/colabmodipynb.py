@@ -34,6 +34,8 @@ def extra_dependencies(path):
     for line in cell:
         if "xdesign" in line:
             depend.append("xdesign")
+        if "import ray" in line:
+            depend.append("ray")
         if "scico.ray" in line:
             depend.append("hyperopt")
             depend.append("ray[tune]")
