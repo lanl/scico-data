@@ -8,5 +8,8 @@ Kai Zhang, Wangmeng Zuo, Yunjin Chen, Deyu Meng, and Lei Zhang. Beyond a Gaussia
 Trained models are contained in files of the format ``dncnn<n><L|M|H>.npz``, where ``n`` is the number of layers in the model (currently 6 or 17), and ``L|M|H`` denotes the noise level at which the model was trained:
 
 * ``L``: model trained for Gaussian noise with standard deviation of 0.06 for data in the range [0,1]
-* ``M``: model trained for Gaussian noise with standard deviation of 0.1 for data in the range [0,1]
-* ``H``: model trained for Gaussian noise with standard deviation of 0.2 for data in the range [0,1]
+* ``M``: model trained for Gaussian noise with standard deviation of 0.10 for data in the range [0,1]
+* ``H``: model trained for Gaussian noise with standard deviation of 0.20 for data in the range [0,1]
+
+
+Additional trained models for a DnCNN variant with a noise standard deviation input are contained in files of the format ``dncnn<n>N.npz``, where ``n`` is the number of layers in the model (currently 6 or 17).
