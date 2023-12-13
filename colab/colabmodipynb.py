@@ -39,7 +39,7 @@ def extra_dependencies(path):
         if "scico.ray" in line:
             depend.append("hyperopt")
             depend.append("ray[tune]")
-        if "radon_astra" in line:
+        if "astra" in line:
             depend.append("astra-toolbox")
         if "colour_demosaicing" in line:
             depend.append("colour_demosaicing")
