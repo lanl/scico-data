@@ -10,4 +10,3 @@ for f in ../notebooks/*.ipynb; do
 done
 
 exit 0
-
