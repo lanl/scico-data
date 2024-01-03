@@ -10,6 +10,7 @@ These files should be updated for both MacOS and Ubuntu test platforms whenever
 significant changes are made to the scico test suite. Updates should be
 computed using::
 
-    pytest --store-durations --durations-path <path-to-durations-file>
+    pytest --level=<n> --store-durations --durations-path <path-to-durations-file>
 
-and then bzipped before being used to replace existing versions.
+where `n` is 1 for MacOS and 2 for Ubuntu, and then bzipped before being used to
+replace existing versions.
