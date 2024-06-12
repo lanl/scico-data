@@ -14,8 +14,10 @@ for n in range(3):
     ax[n].set_ylim(-1.1,1.1)
     ax[n].set_xticks(np.linspace(-1.0, 1.0, 5))
     ax[n].set_yticks(np.linspace(-1.0, 1.0, 5))
-    ax[n].set_xlabel("$x$ (axis 1)")
-    ax[n].set_ylabel("$y$ (axis 0)")
+    ax[n].tick_params(axis='x', labelsize=12)
+    ax[n].tick_params(axis='y', labelsize=12)
+    ax[n].set_xlabel("$x$ (axis 1)", fontsize=14)
+    ax[n].set_ylabel("$y$ (axis 0)", fontsize=14)
 
 # scico
 plist = [
@@ -30,7 +32,7 @@ for p in plist:
 ax[0].text(-0.88, 0.02, r"$\theta=0$", color="r", fontsize=14)
 ax[0].text(-3*c/4 - 0.01, -3*c/4 - 0.1, r"$\theta=\frac{\pi}{4}$", color="r", fontsize=14)
 ax[0].text(0.03, -0.8, r"$\theta=\frac{\pi}{2}$", color="r", fontsize=14)
-ax[0].set_title("scico")
+ax[0].set_title("scico", fontsize=14)
 
 # astra
 plist = [
@@ -45,7 +47,7 @@ for p in plist:
 ax[1].text(0.02, -0.75, r"$\theta=0$", color="r", fontsize=14)
 ax[1].text(3*c/4 + 0.01, -3*c/4 + 0.01, r"$\theta=\frac{\pi}{4}$", color="r", fontsize=14)
 ax[1].text(0.65, 0.05, r"$\theta=\frac{\pi}{2}$", color="r", fontsize=14)
-ax[1].set_title("astra")
+ax[1].set_title("astra", fontsize=14)
 
 # svmbir
 plist = [
@@ -60,7 +62,7 @@ for p in plist:
 ax[2].text(-0.88, 0.02, r"$\theta=0$", color="r", fontsize=14)
 ax[2].text(-3*c/4 + 0.01, 3*c/4 + 0.01, r"$\theta=\frac{\pi}{4}$", color="r", fontsize=14)
 ax[2].text(0.03, 0.75, r"$\theta=\frac{\pi}{2}$", color="r", fontsize=14)
-ax[2].set_title("svmbir")
+ax[2].set_title("svmbir", fontsize=14)
 
 fig.tight_layout()
 fig.show()
