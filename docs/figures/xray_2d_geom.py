@@ -16,8 +16,8 @@ for n in range(3):
     ax[n].set_yticks(np.linspace(-1.0, 1.0, 5))
     ax[n].tick_params(axis='x', labelsize=12)
     ax[n].tick_params(axis='y', labelsize=12)
-    ax[n].set_xlabel("$x$ (axis 1)", fontsize=14)
-    ax[n].set_ylabel("$y$ (axis 0)", fontsize=14)
+    ax[n].set_xlabel("axis 1", fontsize=14)
+    ax[n].set_ylabel("axis 0", fontsize=14)
 
 # scico
 plist = [
