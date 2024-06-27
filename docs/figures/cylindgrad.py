@@ -17,7 +17,7 @@ axi = cg.coord[2]
 theta = np.arctan2(g0, g1)
 clr = theta
 # See https://stackoverflow.com/a/49888126
-clr = (clr.ravel() - clr.min()) / clr.ptp()
+clr = (clr.ravel() - clr.min()) / np.ptp(clr)
 clr = np.concatenate((clr, np.repeat(clr, 2)))
 clr = plot.plt.cm.plasma(clr)
 

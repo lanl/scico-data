@@ -18,7 +18,7 @@ theta = np.arctan2(g0, g1)
 phi = np.arctan2(np.sqrt(g0**2 + g1**2), g2)
 clr = theta * phi
 # See https://stackoverflow.com/a/49888126
-clr = (clr.ravel() - clr.min()) / clr.ptp()
+clr = (clr.ravel() - clr.min()) / np.ptp(clr)
 clr = np.concatenate((clr, np.repeat(clr, 2)))
 clr = plot.plt.cm.plasma(clr)
 
