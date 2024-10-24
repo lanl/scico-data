@@ -10,4 +10,6 @@ dependencies:
 - pip:
   - colour_demosaicing
   - ray[tune]
+  - jaxlib>=0.4.26
+  - jax>=0.4.26
   - scico
