@@ -12,4 +12,4 @@ dependencies:
   - ray[tune]
   - jaxlib>=0.4.26
   - jax>=0.4.26
-  - scico
+  - git+https://github.com/lanl/scico
