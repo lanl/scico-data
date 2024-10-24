@@ -1,10 +1,12 @@
 channels:
 - conda-forge
 dependencies:
-- python =3.12
+- python=3.12
 - pip
 - astra-toolbox
 - hyperopt
+- jaxlib>=0.4.26
+- jax>=0.4.26
 - pip:
   - colour_demosaicing
   - ray[tune]
