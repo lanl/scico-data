@@ -5,11 +5,11 @@ dependencies:
 - pip
 - astra-toolbox
 - hyperopt
-- jaxlib>=0.4.26
-- jax>=0.4.26
+- xdesign
 - pip:
   - colour_demosaicing
   - ray[tune]
+  - bm3d
   - jaxlib>=0.4.26
   - jax>=0.4.26
   - git+https://github.com/lanl/scico
