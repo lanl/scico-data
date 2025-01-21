@@ -74,12 +74,13 @@ prepend = [
     "# If you encounter any problems in running it, please open an issue at\n",
     "#   https://github.com/lanl/scico-data/issues\n",
     "\n",
-    "!pip install git+https://github.com/lanl/scico\n",
+    #"!pip install git+https://github.com/lanl/scico\n",
+    "!pip install 'scico[examples] @ git+https://github.com/lanl/scico'\n",
 ]
 
-extradep = extra_dependencies(srcpth)
-if extradep:
-    prepend.append("!pip install " + " ".join(extradep) + "\n")
+#extradep = extra_dependencies(srcpth)
+#if extradep:
+#    prepend.append("!pip install " + " ".join(extradep) + "\n")
 
 prepend.append("\n")
 
