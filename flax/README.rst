@@ -13,3 +13,10 @@ Trained models are contained in files of the format ``dncnn<n><L|M|H>.mpk``, whe
 
 
 Additional trained models for a DnCNN variant with a noise standard deviation input are contained in files of the format ``dncnn<n>N.mpk``, where ``n`` is the number of layers in the model (currently 6 or 17).
+
+
+Conditional UNet
+================
+
+A trained conditional UNet denoiser model is contained in the file `dncun.pkl.xz`.
+
