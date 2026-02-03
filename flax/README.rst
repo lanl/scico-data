@@ -18,5 +18,5 @@ Additional trained models for a DnCNN variant with a noise standard deviation in
 Conditional UNet
 ================
 
-A trained conditional UNet denoiser model is contained in the file `dncun.pkl.xz`.
+A trained conditional UNet denoiser model is contained in the file `dncun.pkl.xz`. Note that `Git LFS <https://git-lfs.com/>`__ is required to access this file within git version control. 
 
